@@ -11,10 +11,10 @@ function App() {
     <div className='Main'>
       <Container fluid="md">
       <HashRouter>
-        <Route exact path="/web" element={<Header/>} />
-          <Route path='/teams' element={<Teams />} />
-          <Route path='/registration' element={<Registration />} />
-      </HashRouter>
+          <Route exact path="/web" component={Header} />
+          <Route path='/teams' component={Teams} />
+          <Route path='/registration' component={Registration} />
+        </HashRouter>
       </Container>
     </div>
   );

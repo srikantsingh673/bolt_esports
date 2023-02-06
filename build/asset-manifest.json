@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web/static/css/main.3cd4a1b1.css",
-    "main.js": "/web/static/js/main.913b410f.js",
+    "main.js": "/web/static/js/main.2025f902.js",
     "static/js/787.acbe38b1.chunk.js": "/web/static/js/787.acbe38b1.chunk.js",
     "static/media/BOU-S5.png": "/web/static/media/BOU-S5.86a112a5400a9fc20a15.png",
     "static/media/bolt_logo.png": "/web/static/media/bolt_logo.b7af4c97685518f08349.png",
@@ -41,11 +41,11 @@
     "static/media/insta-black.png": "/web/static/media/insta-black.6bcdd4dc7a4a6a8e4ed8.png",
     "index.html": "/web/index.html",
     "main.3cd4a1b1.css.map": "/web/static/css/main.3cd4a1b1.css.map",
-    "main.913b410f.js.map": "/web/static/js/main.913b410f.js.map",
+    "main.2025f902.js.map": "/web/static/js/main.2025f902.js.map",
     "787.acbe38b1.chunk.js.map": "/web/static/js/787.acbe38b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cd4a1b1.css",
-    "static/js/main.913b410f.js"
+    "static/js/main.2025f902.js"
   ]
 }

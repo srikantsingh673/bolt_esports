@@ -12,7 +12,7 @@ function App() {
       <Container fluid="md">
       <BrowserRouter>
         <Routes>
-        <Route path='/' element={<Header/>} />
+        <Route path='/web' element={<Header/>} />
           <Route path='teams' element={<Teams />} />
           <Route path='registration' element={<Registration />} />
         </Routes>

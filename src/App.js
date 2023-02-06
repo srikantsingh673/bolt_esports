@@ -13,8 +13,8 @@ function App() {
       <BrowserRouter>
         <Routes>
         <Route path='/web' element={<Header/>} />
-          <Route path='/web/teams' element={<Teams />} />
-          <Route path='/web/registration' element={<Registration />} />
+          <Route path='teams' element={<Teams />} />
+          <Route path='registration' element={<Registration />} />
         </Routes>
       </BrowserRouter>
       </Container>

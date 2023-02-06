@@ -1,6 +1,6 @@
 {
   "name": "bolt_esports",
-  "homepage": "https://boltesports.github.io/web",
+  "homepage": "https://boltesports.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

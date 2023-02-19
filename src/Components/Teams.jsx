@@ -21,7 +21,10 @@ import team13 from '../Assets/Teams/teamHC.jpeg'
 import team14 from '../Assets/Teams/teamTLE.jpeg'
 import team15 from '../Assets/Teams/teamTSE.jpeg'
 import team16 from '../Assets/Teams/teamBT.jpeg'
-
+import achi from '../Assets/achi.png'
+import single_kill from '../Assets/single-shot.png'
+import team_kill from '../Assets/team-shot.png'
+import achi01 from '../Assets/achi01.png'
 
 const Teams = () => {
   return (
@@ -38,16 +41,17 @@ const Teams = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/web"><strong>Home</strong></Nav.Link>
-              <Nav.Link href="#About"><strong>About</strong></Nav.Link>
+              <Nav.Link href="/"><strong>Home</strong></Nav.Link>
+              <Nav.Link href="/"><strong>About</strong></Nav.Link>
               <Nav.Link href="/registration"><strong>Registration</strong></Nav.Link>
-              <Nav.Link href="/Teams"><strong>Teams</strong></Nav.Link>
+              <Nav.Link href="/teams"><strong>Teams</strong></Nav.Link>
+              <Nav.Link href="/rules"><strong>Rules & Regulations</strong></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
       <Card className='tourni'>
-        <Card.Header as="h6" ><strong> Tournament Winner Teams </strong></Card.Header>
+        <Card.Header className='achi-head' ><strong> Tournament Winner Teams </strong></Card.Header>
         <Card.Body>
           <Carousel fade className='crousel-text' variant="dark">
             <Carousel.Item>
@@ -81,6 +85,79 @@ const Teams = () => {
           </Carousel>
         </Card.Body>
       </Card><br />
+      <Card className='achi'>
+        <Card.Body><br />
+          <Card.Title className='achi-head'>
+            <img
+              width="40"
+              height="40"
+              src={achi}
+              alt="Achievement"
+            />{ }<strong>
+              Team's Achievement </strong></Card.Title>
+          <Card.Text><br /><br/>
+            <Container>
+              <p className='achi-body'><img
+                width="40"
+                height="40"
+                src={team_kill}
+                alt="Achievement"
+              />
+                Highest Team Kills { }
+              </p><br />
+              <Container>
+                <Row>
+                  <Col>
+                    <p>26 Kills</p><br/>
+                    <p>25 Kills</p><br/>
+                    <p>23 Kills</p><br/>
+                  </Col>
+                  <Col>
+                    <p>Bolt eSports</p><br/>
+                    <p>Try Hard</p><br/>
+                    <p>MIB, CGE, Thermite, ICEFIY</p>
+                  </Col>
+                </Row>
+              </Container><br/>
+              <p className='achi-body'>
+              <img
+                  width="40"
+                  height="40"
+                  src={single_kill}
+                  alt="Achievement"
+                />{  }
+                Highest Individual Kills 
+                </p><br />
+                <Container>
+                <Row>
+                  <Col>
+                    <p>14 Kills</p><br/>
+                    <p>14 Kills</p><br/>
+                    <p>13 Kills</p><br/>
+                  </Col>
+                  <Col>
+                    <p><small>The_Revilo<br/>(Thermite eSports)</small></p>
+                    <p><small>TLE_Kunnu<br/>(The Lion eSports)</small></p>
+                    <p><small>The_Saurabh<br/>(Thermite eSports)</small></p>
+                  </Col>
+                </Row>
+              </Container>
+            </Container><br /><br /><br />
+            <Container className='achi-head'>
+              <p> <img
+                width="40"
+                height="40"
+                src={achi01}
+                alt="Achievement"
+              />{ }&nbsp;&nbsp;<strong>Highest Collected Points in 12 Matches </strong></p><br /><br />
+              <p>Team Youtube  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;197 pts</p>
+              <p>Thermite eSports &nbsp;&nbsp;&nbsp;196 Pts</p>
+              <p>Bolt eSports &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;190 Pts</p>
+            </Container><br /><br /><br />
+          </Card.Text>
+        </Card.Body>
+      </Card><br />
+
       <Card>
         <Card.Img variant="top" src={team1} />
       </Card>
@@ -165,7 +242,7 @@ const Teams = () => {
       <Container className='Footer'>
         <div>
           <Badge bg="dark">
-          Designed & Created by - Rishu..
+            Designed & Created by - Rishu..
           </Badge>
         </div>
       </Container>

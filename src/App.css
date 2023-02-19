@@ -52,3 +52,40 @@
     padding-top: 220px;
     padding-bottom: 10px;
 }
+
+.achi
+{
+    text-align: center;
+    background-image: url("./Assets/bg06.jpg");
+}
+
+.achi-head
+{
+    font-family: monospace;
+}
+
+.achi-body
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.achi-text
+{
+    text-align: center;
+}
+
+.rules
+{
+    text-align: center;
+    background-image: url("./Assets/cloud.jpg");
+}
+
+.rules-text
+{
+    text-align: left;
+}
+
+.btn 
+{
+    margin: 20px;
+}
